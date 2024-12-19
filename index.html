@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CASC</title>
+  <link href="../src/css/output.css" rel="stylesheet">
+  <link rel="stylesheet" href="../public/">
+</head>
+
+<body class="font-BlauerNueRegular">
+  <header id="hero" class="bg-center bg-no-repeat bg-cover h-auto px-8 pb-[58px]"
+    style="background-image: url(../src/assets/imagenes/Gradiantes/Color/Gradient-\(2\).jpg)">
+
+    <!-- Barra de navegación -->
+    <nav class="w-full h-28 mb-12 flex justify-between items-center static">
+      <!-- Logo -->
+      <a href="#">
+        <img class="w-[110px] h-[31px]" src="../src/assets/imagenes/Logo/CACS-LogoPrincipal.webp" alt="logo de CASC">
+      </a>
+
+      <!-- Menú de navegación -->
+      <ul class="hidden lg:flex px-16 py-8 gap-5">
+        <li>
+          <a class="text-BlancoCultivado hover:text-AguamarinaMediana transition duration-300 ease-out"
+            href="#">Nosotros</a>
+        </li>
+        <li>
+          <a class="text-BlancoCultivado hover:text-AguamarinaMediana transition duration-300 ease-out"
+            href="#">Servicio</a>
+        </li>
+        <li>
+          <a class="text-BlancoCultivado hover:text-AguamarinaMediana transition duration-300 ease-out" href="#">FAQ</a>
+        </li>
+      </ul>
+
+      <!-- Botones -->
+      <div class="hidden lg:flex items-center gap-3">
+        <input class="text-BlancoCultivado border-r-2 border-BlancoCultivado p-2 font-bold cursor-pointer" type="button"
+          value="EN">
+        <a href="#"
+          class="text-BlancoCultivado border-4 border-AguamarinaMediana rounded-full p-2 font-bold cursor-pointer hover:bg-AguamarinaMediana transition duration-300 ease-out">CONTACTAR
+          </a>
+      </div>
+
+      <!-- Mobile Menu Button -->
+      <div class="lg:hidden">
+        <button id="menu-btn" class="text-BlancoCultivado focus:outline-none">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+          </svg>
+        </button>
+      </div>
+
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden lg:hidden static">
+      <ul class="flex flex-col items-center gap-5">
+        <li>
+          <a class="text-BlancoCultivado hover:text-AguamarinaMediana transition duration-300 ease-out"
+            href="#nosotros">Nosotros</a>
+        </li>
+        <li>
+          <a class="text-BlancoCultivado hover:text-AguamarinaMediana transition duration-300 ease-out"
+            href="#servicios">Servicio</a>
+        </li>
+        <li>
+          <a class="text-BlancoCultivado hover:text-AguamarinaMediana transition duration-300 ease-out" href="#fqa">FAQ</a>
+        </li>
+        <li>
+          <input class="text-BlancoCultivado border-b-2 border-BlancoCultivado p-2 font-bold cursor-pointer"
+            type="button" value="EN">
+        </li>
+        <li>
+          <input
+            class="text-BlancoCultivado border-4 border-AguamarinaMediana rounded-full p-2 font-bold cursor-pointer hover:bg-AguamarinaMediana transition duration-300 ease-out"
+            type="button" value="CONTACTAR">
+        </li>
+      </ul>
+    </div>
+
+   
+
+
+    <div class="w-full p-4 flex flex-col items-center gap-4 mx-4">
+      <!-- Título Pequeño -->
+      <h2 class="text-center text-BlancoCultivado uppercase py-2 
+      text-[20px] md:text-[28px] lg:text-4xl">
+        Central America Consulting Support
+      </h2>
+
+      <!-- Título Principal -->
+      <h1 class="w-full max-w-4xl text-center text-BlancoCultivado font-BlauerNueBold uppercase 
+      text-[32px] md:text-5xl lg:text-7xl">
+        Figma ipsum component variant
+      </h1>
+    </div>
+
+    <!-- Card que contiene la información de los servicios -->
+    <div class="flex flex-col justify-center items-center gap-4 mt-4
+      lg:flex lg:flex-row lg:justify-center lg:items-center">
+
+      <a href="#">
+        <div class="w-[256px] border border-AzulCielo lg:border-Gris rounded-2xl p-6 hover:border-AzulCielo transition ease-out duration-150
+        md:w-[360px] lg:h-[327px]">
+
+          <img src="../src/assets/Svg/serviceIcon.svg" alt="">
+
+          <div class="flex flex-col justify-center gap-2.5 mt-2">
+            <h3 class="text-BlancoCultivado uppercase text-base font-BlauerNueBold
+            md:text-xl lg:text-2xl">Serivicio</h3>
+
+            <p class="text-BlancoCultivado text-justify text-sm 
+            md:text-base font-BlauerNueThin">Figma ipsum component variant main layer. Horizontal
+              flatten opacity slice pencil vertical star auto. Edit star background vector share stroke.</p>
+          </div>
+
+          <hr class="h-0.5 my-8 bg-AzulCielo lg:bg-Gris">
+
+          <div class="flex justify-between items-center">
+            <span class="text-BlancoCultivado" href="#">Leer Más</span>
+            <img src="../src/assets/Svg/readMoreIcon.svg" alt="">
+          </div>
+
+        </div>
+      </a>
+      <a href="#">
+        <div class="w-[256px] border border-AzulCielo lg:border-Gris rounded-2xl p-6 hover:border-AzulCielo transition ease-out duration-150
+        md:w-[360px] lg:h-[327px]">
+
+          <img src="../src/assets/Svg/serviceIcon.svg" alt="">
+
+          <div class="flex flex-col justify-center gap-2.5 mt-2">
+            <h3 class="text-BlancoCultivado uppercase text-base font-BlauerNueBold
+            md:text-xl lg:text-2xl">Serivicio</h3>
+
+            <p class="text-BlancoCultivado text-justify text-sm 
+            md:text-base font-BlauerNueThin">Figma ipsum component variant main layer. Horizontal
+              flatten opacity slice pencil vertical star auto. Edit star background vector share stroke.</p>
+          </div>
+
+          <hr class="h-0.5 my-8 bg-AzulCielo lg:bg-Gris">
+
+          <div class="flex justify-between items-center">
+            <span class="text-BlancoCultivado" href="#">Leer Más</span>
+            <img src="../src/assets/Svg/readMoreIcon.svg" alt="">
+          </div>
+
+        </div>
+      </a>
+      <a href="#">
+        <div class="w-[256px] border border-AzulCielo lg:border-Gris rounded-2xl p-6 hover:border-AzulCielo transition ease-out duration-150
+        md:w-[360px] lg:h-[327px]">
+
+          <img src="../src/assets/Svg/serviceIcon.svg" alt="">
+
+          <div class="flex flex-col justify-center gap-2.5 mt-2">
+            <h3 class="text-BlancoCultivado uppercase text-base font-BlauerNueBold
+            md:text-xl lg:text-2xl">Serivicio</h3>
+
+            <p class="text-BlancoCultivado text-justify text-sm 
+            md:text-base font-BlauerNueThin">Figma ipsum component variant main layer. Horizontal
+              flatten opacity slice pencil vertical star auto. Edit star background vector share stroke.</p>
+          </div>
+
+          <hr class="h-0.5 my-8 bg-AzulCielo lg:bg-Gris">
+
+          <div class="flex justify-between items-center">
+            <span class="text-BlancoCultivado" href="#">Leer Más</span>
+            <img src="../src/assets/Svg/readMoreIcon.svg" alt="">
+          </div>
+
+        </div>
+      </a>
+   
+      
+    </div>
+  </header>
+  <main class="flex flex-col bg-Negro px-4 gap-8">
+    <!-- Inicio Seccion Nosotros -->
+    <section class="flex flex-col justify-center items-center w-full p-8 gap-8 lg:grid lg:grid-cols-2">
+      <img class="w-[232px] h-auto my-10 lg:col-start-2 lg:order-2 lg:w-full" src="src/assets/imagenes/Logo/CACS-LogoPrincipal-TextoBlanco.webp" alt="Logo de la empresa">
+      <div class="flex flex-col items-center gap-8 md:w-max[600px] lg:items-start lg:order-first">
+        <h2 class="w-full text-center text-[20px] font-bold uppercase text-BlancoCultivado lg:text-left lg:text-[64px]">Figma ipsum component variant</h2>
+        <p class="text-justify text-sm font-BlauerNueThin text-BlancoCultivado lg:text-2xl">Figma ipsum component variant main layer. Horizontal flatten opacity slice pencil vertical star auto. Edit star background vector share stroke. Figma ipsum component variant main layer. Horizontal flatten opacity slice pencil vertical star auto. Edit star background vector share stroke.</p>
+        <a href="#" class="p-2 text-center text-sm font-bold text-BlancoCultivado border-4 border-AguamarinaMediana rounded-full cursor-pointer hover:bg-AguamarinaMediana transition duration-300 ease-out md:px-6 md:py-3 md:text-base lg:px-8 lg:py-4 lg:text-lg">CONTACTAR</a>
+      </div>
+    </section>
+    <!-- final de la seccion nosotros -->
+  </main>
+  <footer></footer>
+  <script src="../src/js/app.js"> </script>
+</body>
+
+</html>

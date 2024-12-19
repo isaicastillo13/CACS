@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family:'Blauer-Nue-Regular';
+    src:
+        url('../assets/fonts/BlauerNueDownloads/TrueType/BlauerNue-Regular.woff2') format('woff2'),
+        url('../assets/fonts/BlauerNueDownloads/TrueType/BlauerNue-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family:'Blauer-Nue-Bold';
+    src:
+        url('../assets/fonts/BlauerNueDownloads/TrueType/BlauerNue-Bold.woff2') format('woff2'),
+        url('../assets/fonts/BlauerNueDownloads/TrueType/BlauerNue-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+@font-face {
+    font-family:'Blauer-Nue-Thin';
+    src:
+        url('../assets/fonts/BlauerNueDownloads/TrueType/BlauerNue-Thin.woff2') format('woff2'),
+        url('../assets/fonts/BlauerNueDownloads/TrueType/BlauerNue-Thin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
