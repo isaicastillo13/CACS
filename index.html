@@ -11,7 +11,7 @@
 
 <body class="font-BlauerNueRegular">
 
-  <header id="hero" class="bg-center bg-no-repeat bg-cover h-auto px-8 pb-[58px]"
+  <header id="hero" class="bg-center bg-no-repeat bg-cover px-8 pb-[58px] h-screen"
     style="background-image: url(../src/assets/imagenes/Gradiantes/Color/Gradient-\(2\).jpg)">
 
     <!-- Barra de navegación -->
@@ -25,14 +25,14 @@
       <ul class="hidden lg:flex px-16 py-8 gap-5">
         <li>
           <a class="text-BlancoCultivado hover:text-AguamarinaMediana transition duration-300 ease-out"
-            href="#">Nosotros</a>
+            href="/sobrenosotros.html">Nosotros</a>
         </li>
         <li>
           <a class="text-BlancoCultivado hover:text-AguamarinaMediana transition duration-300 ease-out"
-            href="#">Servicio</a>
+            href="/servicios.html">Servicio</a>
         </li>
         <li>
-          <a class="text-BlancoCultivado hover:text-AguamarinaMediana transition duration-300 ease-out" href="#">FAQ</a>
+          <a class="text-BlancoCultivado hover:text-AguamarinaMediana transition duration-300 ease-out" href="/fqa.html">FAQ</a>
         </li>
       </ul>
 
@@ -40,7 +40,7 @@
       <div class="hidden lg:flex items-center gap-3">
         <input class="text-BlancoCultivado border-r-2 border-BlancoCultivado p-2 font-bold cursor-pointer" type="button"
           value="EN">
-        <a href="#"
+        <a href="/contacto.html"
           class="text-BlancoCultivado border-4 border-AguamarinaMediana rounded-full p-2 font-bold cursor-pointer hover:bg-AguamarinaMediana transition duration-300 ease-out">CONTACTAR
           </a>
       </div>
@@ -61,24 +61,24 @@
       <ul class="flex flex-col items-center gap-5">
         <li>
           <a class="text-BlancoCultivado hover:text-AguamarinaMediana transition duration-300 ease-out"
-            href="#nosotros">Nosotros</a>
+            href="/sobrenosotros.html">Nosotros</a>
         </li>
         <li>
           <a class="text-BlancoCultivado hover:text-AguamarinaMediana transition duration-300 ease-out"
-            href="#servicios">Servicio</a>
+            href="/servicios.html">Servicio</a>
         </li>
         <li>
-          <a class="text-BlancoCultivado hover:text-AguamarinaMediana transition duration-300 ease-out" href="#fqa">FAQ</a>
+          <a class="text-BlancoCultivado hover:text-AguamarinaMediana transition duration-300 ease-out" href="/fqa.html">FAQ</a>
         </li>
         <li>
           <input class="text-BlancoCultivado border-b-2 border-BlancoCultivado p-2 font-bold cursor-pointer"
             type="button" value="EN">
         </li>
         <li>
-          <input
-            class="text-BlancoCultivado border-4 border-AguamarinaMediana rounded-full p-2 font-bold cursor-pointer hover:bg-AguamarinaMediana transition duration-300 ease-out"
-            type="button" value="CONTACTAR">
-        </li>
+          <a href="/contacto.html"
+          class="text-BlancoCultivado border-4 border-AguamarinaMediana rounded-full p-2 font-bold cursor-pointer hover:bg-AguamarinaMediana transition duration-300 ease-out">CONTACTAR
+          </a>
+          </li>
       </ul>
     </div>
 
@@ -103,7 +103,7 @@
     <div class="flex flex-col justify-center items-center gap-4 mt-4
       lg:flex lg:flex-row lg:justify-center lg:items-center">
 
-      <a href="#">
+      <a href="/servicios.html">
         <div class="w-[256px] border border-AzulCielo lg:border-Gris rounded-2xl p-6 hover:border-AzulCielo transition ease-out duration-150
         md:w-[360px] lg:h-[327px]">
 
@@ -127,7 +127,7 @@
 
         </div>
       </a>
-      <a href="#">
+      <a href="/servicios.html">
         <div class="w-[256px] border border-AzulCielo lg:border-Gris rounded-2xl p-6 hover:border-AzulCielo transition ease-out duration-150
         md:w-[360px] lg:h-[327px]">
 
@@ -151,7 +151,7 @@
 
         </div>
       </a>
-      <a href="#">
+      <a href="/servicios.html">
         <div class="w-[256px] border border-AzulCielo lg:border-Gris rounded-2xl p-6 hover:border-AzulCielo transition ease-out duration-150
         md:w-[360px] lg:h-[327px]">
 
@@ -179,9 +179,10 @@
       
     </div>
   </header>
-  <main class="flex flex-col bg-Negro px-4 gap-8">
+
+  <main class="flex flex-col bg-Negro lg:px-48 gap-8">
     <!-- Inicio Seccion Nosotros -->
-    <section class="flex flex-col justify-center items-center w-full p-8 gap-8 lg:grid lg:grid-cols-2">
+    <section id="nosotros" class="flex flex-col justify-center items-center w-full h-screen p-8 gap-8 lg:grid lg:grid-cols-2">
       <img class="w-[232px] h-auto my-10 lg:col-start-2 lg:order-2 lg:w-full" src="src/assets/imagenes/Logo/CACS-LogoPrincipal-TextoBlanco.webp" alt="Logo de la empresa">
       <div class="flex flex-col items-center gap-8 md:w-max[600px] lg:items-start lg:order-first">
         <h2 class="w-full text-center text-[20px] font-BlauerNueBold uppercase text-BlancoCultivado lg:text-left lg:text-[64px]">Figma ipsum component variant</h2>
@@ -192,7 +193,7 @@
       <!-- final de la seccion nosotros -->
 
       <!-- Inicio Seccion experiencia y alcance -->
-      <section class="flex flex-col justify-items-center p-8 gap-8 lg:grid lg:grid-cols-4 lg:grid-rows-2 lg:gap-1">
+      <section class="flex flex-col justify-items-center h-screen p-8 gap-8 lg:grid lg:grid-cols-4 lg:grid-rows-2 lg:gap-1">
 
       <div class="flex flex-col justify-center items-center p-4 gap-4 text-BlancoCultivado bg-Gris bg-opacity-75 rounded-2xl w-full overflow-hidden lg:grid lg:gap-1 lg:col-span-2 lg:row-span-2">
         <h2 class="text-[20px] uppercase text-center  font-BlauerNueBold z-10 lg:text-[64px] lg:text-left"> Figma ipsum component variant</h2>
@@ -218,9 +219,94 @@
      </section>
      <!-- final de la seccion experiencia y alcance -->
 
+      <!-- Inicio Seccion Pilares -->
+       <section class="flex flex-col justify-center items-center h-screen lg:items-start lg:flex lg:flex-row p-8 gap-8">
+        
+        <div>
+          <h2 class=" lg:w-[670px] text-[20px] lg:text-[64px] lg:text-left uppercase text-center text-BlancoCultivado font-BlauerNueBold">Figma ipsum component variant</h2>
+        </div>
+
+        <!-- pilares -->
+        <div class="flex flex-col justify-center items-center">
+          <!-- pilar -->
+           <div>
+             <div class="flex flex-col w-[300px] justify-center items-start p-4 gap-4 text-BlancoCultivado">
+               <!-- icono del Pilares -->
+               <div class="w-full flex justify-end">
+                 <img class="w-[50px] h-[50px]" src="" alt="">
+               </div>
+   
+               <!-- textos del Pilar -->
+               <h3 class="font-BlauerNueBold text-[18px]">Pilar</h3>
+               <p class="text-justify font-BlauerNueThin">Figma ipsum component variant main layer. Horizontal flatten opacity slice pencil vertical star auto.</p>
+             </div>
+           </div>
+           
+           <div>
+             <div class="flex flex-col w-[300px] justify-center items-start p-4 gap-4 text-BlancoCultivado">
+               <!-- icono del Pilares -->
+               <div class="w-full flex justify-start">
+                 <img class="w-[50px] h-[50px]" src="" alt="">
+               </div>
+   
+               <!-- textos del Pilar -->
+               <h3 class="font-BlauerNueBold text-[18px]">Pilar</h3>
+               <p class="text-justify font-BlauerNueThin">Figma ipsum component variant main layer. Horizontal flatten opacity slice pencil vertical star auto.</p>
+             </div>
+           </div>
+
+           <div>
+             <div class="flex flex-col w-[300px] justify-center items-start p-4 gap-4 text-BlancoCultivado">
+               <!-- icono del Pilares -->
+               <div class="w-full flex justify-end">
+                 <img class="w-[50px] h-[50px]" src="" alt="">
+               </div>
+   
+               <!-- textos del Pilar -->
+               <h3 class="font-BlauerNueBold text-[18px]">Pilar</h3>
+               <p class="text-justify font-BlauerNueThin">Figma ipsum component variant main layer. Horizontal flatten opacity slice pencil vertical star auto.</p>
+             </div>
+           </div>
+        </div>
+       </section>
+      <!-- final de la seccion Pilares -->
   </main>
-  <footer></footer>
+  <footer class="flex flex-col justify-center items-center bg-center bg-no-repeat bg-cover h-auto p-8 gap-8 text-BlancoCultivado"
+  style="background-image: url(../src/assets/imagenes/Gradiantes/Color/Gradient-\(18\).jpg)">
+
+  <div class="flex flex-col justify-center items-center gap-4">
+    <img class="w-[100px]" src="src/assets/imagenes/Logo/CACS-LogoPrincipal.webp" alt="">
+  </div>
+
+
+    <ul class="flex flex-col justify-center items-center gap-4">
+      <li>
+        <a href="sobrenosotros.html">Nosotros</a>
+      </li>
+      <li>
+        <a href="servicios.html">Servicio</a>
+      </li>
+      <li>
+        <a href="fqa.html">FAQ</a>
+        </li>
+    </ul>
+
+  <div class="flex justify-center items-center gap-4">
+    <a href="">
+      <img src="https://img.icons8.com/?size=50&id=32320&format=png&color=FFFFFF" alt="">
+    </a>
+    <a href="">
+      <img src="https://img.icons8.com/?size=50&id=98960&format=png&color=FFFFFF" alt="">
+    </a>
+  
+  </div>
+
+  <p>
+    © 2021 CASC. All rights reserved.
+  </p>
+
+    
+  </footer>
   <script src="../src/js/app.js"> </script>
 </body>
-
 </html>
