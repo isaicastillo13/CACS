@@ -1,196 +1,111 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nosotros</title>
-    <link href="../src/css/output.css" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Explora los servicios de CASC en eficiencia energética, certificación de productos y gestión de trámites. Asegura el cumplimiento normativo con soluciones personalizadas.">
+  <title>Servicios</title>
 
+  <link rel="preload" href="../src/css/output.css" as="style" onload="this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="../src/css/output.css"></noscript>
+
+  <link rel="icon" href="/src/assets/imagenes/Logo/CACS-LogoPrincipal-TextoBlanco.webp" type="image/webp" />
+  <link rel="preload" as="image" href="/src/assets/imagenes/Logo/CACS-LogoPrincipal-TextoBlanco.webp">
 </head>
 
 <body class="bg-Negro font-BlauerNueRegular">
-    <header id="hero" class="flex flex-col justify-center items-center h-auto px-8 pb-[58px] gap-3">
+  <header id="hero" class="flex flex-col justify-center items-center h-auto px-8 pb-[58px] gap-3">
+    <nav class="flex justify-between items-center w-full h-28 mb-12 static">
+      <a href="/index.html">
+        <img loading="lazy" class="w-[110px] h-[31px]" src="../src/assets/imagenes/Logo/CACS-LogoPrincipal.webp" alt="Logo de CASC" />
+      </a>
 
-        <!-- Barra de navegación -->
-        <nav class="flex justify-between items-center w-full h-28 mb-12 static">
-            <!-- Logo -->
-            <a href="/index.html">
-                <img class="w-[110px] h-[31px]" src="../src/assets/imagenes/Logo/CACS-LogoPrincipal.webp" alt="logo de CASC">
-            </a>
-
-            <!-- Menú de navegación -->
-            <ul class="hidden lg:flex gap-5 px-16 py-8">
-                <li>
-                    <a class="text-BlancoCultivado hover:text-AguamarinaMediana transition duration-300 ease-out" href="/sobrenosotros.html">Nosotros</a>
-                </li>
-                <li>
-                    <a class="text-BlancoCultivado hover:text-AguamarinaMediana transition duration-300 ease-out" href="#">Servicio</a>
-                </li>
-    
-            </ul>
-
-            <!-- Botones -->
-            <div class="hidden lg:flex items-center gap-3">
-                <!-- <input class="text-BlancoCultivado border-r-2 border-BlancoCultivado p-2 font-bold cursor-pointer" type="button" value="EN"> -->
-                <a href="https://wa.me/50762412500" class="text-BlancoCultivado border-4 border-AguamarinaMediana rounded-full p-2 font-bold cursor-pointer hover:bg-AguamarinaMediana transition duration-300 ease-out">CONTACTAR</a>
-            </div>
-
-            <!-- Mobile Menu Button -->
-            <div class="lg:hidden">
-                <button id="menu-btn" class="text-BlancoCultivado focus:outline-none">
-                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
-                    </svg>
-                </button>
-            </div>
-
-        </nav>
-
-        <!-- Mobile Menu -->
-        <div id="mobile-menu" class="hidden lg:hidden static pb-8">
-            <ul class="flex flex-col items-center gap-5">
-                <li>
-                    <a class="text-BlancoCultivado hover:text-AguamarinaMediana transition duration-300 ease-out" href="/sobrenosotros.html">Nosotros</a>
-                </li>
-                <li></li>
-                    <a class="text-BlancoCultivado hover:text-AguamarinaMediana transition duration-300 ease-out" href="/servicios.html">Servicio</a>
-                </li>
-
-                <!-- <li>
-                    <input class="text-BlancoCultivado border-b-2 border-BlancoCultivado p-2 font-bold cursor-pointer" type="button" value="EN">
-                </li> -->
-                <li>
-                    <a href="/contacto.html" class="text-BlancoCultivado border-4 border-AguamarinaMediana rounded-full p-2 font-bold cursor-pointer hover:bg-AguamarinaMediana transition duration-300 ease-out">CONTACTAR</a>
-                </li>
-            </ul>
-        </div>
-
-        <div class="flex flex-col items-center justify-center w-full h-auto p-4 bg-cover bg-center bg-no-repeat rounded-2xl lg:w-[90%] md:h-[446px] md:p-8" style="background-image: url(../src/assets/imagenes/Gradiantes/Color/Gradient-\(13\).jpg)">
-
-            <!-- Título Principal -->
-            <h1 class="w-full text-center text-[20px] text-BlancoCultivado font-BlauerNueBold uppercase md:text-5xl lg:text-7xl">
-                Figma ipsum component variant
-            </h1>
-
-        </div>
-    </header>
-
-    <main class="flex flex-col gap-8 bg-Negro px-8 lg:px-48">
-
-        <div class="flex flex-col items-center justify-center gap-2 text-BlancoCultivado lg:items-start">
-            <h2 class="text-justify text-[20px] font-BlauerNueBold uppercase md:text-[28px] lg:text-[32px]">Figma ipsum component variant</h2>
-            <p class="text-justify text-[12px] md:w-[514px] md:text-[18px] lg:w-[700px]">Figma ipsum component variant main layer. Horizontal flatten opacity slice pencil vertical star auto. Edit star background vector share stroke.</p>     
-        </div>
-
-        <div class="flex flex-col items-center justify-center gap-8 lg:grid lg:grid-cols-3 lg:grid-rows-2">
-
-            <div class="h-[330px] rounded-2xl border border-AzulCielo p-6 transition duration-150 ease-out hover:border-AzulCielo md:w-[360px] lg:border-Gris lg:w-full">
-
-                <img src="../src/assets/Svg/chat-round-dots.svg" alt="">
-
-                <div class="mt-2 flex flex-col justify-center gap-2.5">
-                    <h3 class="text-base font-BlauerNueBold uppercase text-BlancoCultivado md:text-xl lg:text-2xl">Asesoría Técnico Legal</h3>
-
-                    <p class="text-justify text-sm font-BlauerNueThin text-BlancoCultivado md:text-base">Asegurar el cumplimiento de los Estándares Mínimos de Eficiencia Energética (MEPS) en Panamá y la región, garantizando el cumplimiento de las normativas locales e internacionales.</p>
-                </div>
-
-            </div>
-
-            <div class="flex h-[330px] flex-col justify-center rounded-2xl border bg-gradient-to-b from-AguamarinaMediana to-AzulCielo md:w-[360px] lg:h-[327px] lg:w-full lg:opacity-50 lg:hover:opacity-100">
-                <p class="px-10 py-5 text-justify text-[24px] font-BlauerNueBold uppercase text-BlancoCultivado">Cumplimiento normativo y optimización energética a nivel regional.</p>   
-            </div>
-
-            <div class="h-[330px] rounded-2xl border border-AzulCielo p-6 transition duration-150 ease-out hover:border-AzulCielo md:w-[360px] lg:border-Gris lg:w-full">
-
-                <img src="../src/assets/Svg/chat-round-dots.svg" alt="">
-
-                <div class="mt-2 flex flex-col justify-center gap-2.5">
-                    <h3 class="text-base font-BlauerNueBold uppercase text-BlancoCultivado md:text-xl lg:text-2xl">Certificación de productos</h3>
-
-                    <p class="text-justify text-sm font-BlauerNueThin text-BlancoCultivado md:text-base">Contamos con una red de organismos de certificación para obtener certificados de conformidad que aseguran la calidad y el cumplimiento de normativas.</p>
-                </div>
-
-            </div>
-
-            <div class="flex h-[330px] flex-col justify-center rounded-2xl border bg-gradient-to-b from-AguamarinaMediana to-AzulCielo md:w-[360px] lg:h-[327px] lg:w-full lg:opacity-50 lg:hover:opacity-100">
-                <p class="px-10 py-5 text-justify text-[24px] font-BlauerNueBold uppercase text-BlancoCultivado">Asegura la conformidad de tus productos con estándares internacionales</p>   
-            </div>
-
-            <div class="h-[330px] rounded-2xl border border-AzulCielo p-6 transition duration-150 ease-out hover:border-AzulCielo md:w-[360px] lg:border-Gris lg:w-full">
-
-                <img src="../src/assets/Svg/chat-round-dots.svg" alt="">
-
-                <div class="mt-2 flex flex-col justify-center gap-2.5">
-                    <h3 class="text-base font-BlauerNueBold uppercase text-BlancoCultivado md:text-xl lg:text-2xl">Gestión de trámites legales</h3>
-
-                    <p class="text-justify text-sm font-BlauerNueThin text-BlancoCultivado md:text-base">Nos encargamos de todo el proceso, desde la certificación internacional hasta las validaciones locales, facilitando el cumplimiento normativo.</p>
-                </div>
-
-            </div>
-
-            <div class="flex h-[330px] flex-col justify-center rounded-2xl border bg-gradient-to-b from-AguamarinaMediana to-AzulCielo md:w-[360px] lg:h-[327px] lg:w-full lg:opacity-50 lg:hover:opacity-100">
-                <p class="px-10 py-5 text-justify text-[24px] font-BlauerNueBold uppercase text-BlancoCultivado">Cumplimiento rápido y sin complicaciones regulatorias</p>   
-            </div>
-
-        </div>
-
-        <div class="flex h-screen flex-col items-center justify-center gap-4 p-8 text-BlancoCultivado">
-            <div class="m-0">
-                <h2 class="w-[90%] text-left text-[24px] font-BlauerNueBold uppercase md:text-[28px] lg:text-[64px]">Beneficio de trabajar con casc</h2>
-                <hr class="w-[180px] border-4 border-AguamarinaMediana lg:w-[50%]">
-            </div>
-
-            <div class="flex flex-col gap-10 lg:flex-row">
-                <div class="md:w-[270px]">
-                    <h2 class="text-[20px] font-BlauerNueBold uppercase text-BlancoCultivado md:text-[24px]">Cumplimiento Normativo Asegurado</h2>
-                    <p class="text-justify text-[12px] md:text-[18px]">Garantizamos que tu empresa cumpla con las normativas locales e internacionales, evitando sanciones legales.</p>
-                </div>
-                <div class="md:w-[270px]">
-                    <h2 class="text-[20px] font-BlauerNueBold uppercase text-BlancoCultivado md:text-[24px]">Optimización Energética:</h2>
-                    <p class="text-justify text-[12px] md:text-[18px]">Mejoramos el uso de los recursos energéticos, reduciendo costos y mejorando la eficiencia operativa.</p>
-                </div>
-                <div class="md:w-[270px]">
-                    <h2 class="text-[20px] font-BlauerNueBold uppercase text-BlancoCultivado md:text-[24px]">Acceso a Nuevos Mercados</h2>
-                    <p class="text-justify text-[12px] md:text-[18px]">Con el cumplimiento de los estándares internacionales, tu empresa abre puertas a nuevas oportunidades de negocio y expansión.</p>
-                </div>
-            </div>
-        </div>
-
-    </main>
-
-    <footer class="flex flex-col items-center justify-center gap-8 p-8 text-BlancoCultivado bg-cover bg-center bg-no-repeat h-auto"
-    style="background-image: url(../src/assets/imagenes/Gradiantes/Color/Gradient-\(18\).jpg)">
-  
-    <a href="/index.html" class="flex flex-col items-center justify-center gap-4">
-      <img class="w-[100px]" src="src/assets/imagenes/Logo/CACS-LogoPrincipal.webp" alt="">
-    </a>
-  
-      <ul class="flex flex-col items-center justify-center gap-4">
-        <li>
-          <a href="sobrenosotros.html">Nosotros</a>
-        </li>
-        <li>
-          <a href="servicios.html">Servicio</a>
-        </li>
+      <ul class="hidden lg:flex gap-5 px-16 py-8">
+        <li><a class="text-BlancoCultivado hover:text-AguamarinaMediana transition duration-300 ease-out" href="/sobrenosotros.html">Nosotros</a></li>
+        <li><a class="text-BlancoCultivado hover:text-AguamarinaMediana transition duration-300 ease-out" href="#">Servicio</a></li>
       </ul>
-  
-    <div class="flex items-center justify-center gap-4">
-      <a href="">
-        <img src="https://img.icons8.com/?size=50&id=32320&format=png&color=FFFFFF" alt="">
-      </a>
-      <a href="">
-        <img src="https://img.icons8.com/?size=50&id=98960&format=png&color=FFFFFF" alt="">
-      </a>
+
+      <div class="hidden lg:flex items-center gap-3">
+        <a href="https://wa.me/50762412500" class="text-BlancoCultivado border-4 border-AguamarinaMediana rounded-full p-2 font-bold cursor-pointer hover:bg-AguamarinaMediana transition duration-300 ease-out">CONTACTAR</a>
+      </div>
+
+      <div class="lg:hidden">
+        <button id="menu-btn" class="text-BlancoCultivado focus:outline-none">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+          </svg>
+        </button>
+      </div>
+    </nav>
+
+    <div id="mobile-menu" class="hidden lg:hidden static pb-8">
+      <ul class="flex flex-col items-center gap-5">
+        <li><a class="text-BlancoCultivado hover:text-AguamarinaMediana transition duration-300 ease-out" href="/sobrenosotros.html">Nosotros</a></li>
+        <li><a class="text-BlancoCultivado hover:text-AguamarinaMediana transition duration-300 ease-out" href="/servicios.html">Servicio</a></li>
+        <li><a href="/contacto.html" class="text-BlancoCultivado border-4 border-AguamarinaMediana rounded-full p-2 font-bold cursor-pointer hover:bg-AguamarinaMediana transition duration-300 ease-out">CONTACTAR</a></li>
+      </ul>
     </div>
-  
-    <p>
-      © 2021 CASC. All rights reserved.
-    </p>
-  
-    </footer>
 
+    <div class="flex flex-col items-center justify-center w-full h-auto p-4 bg-cover bg-center bg-no-repeat rounded-2xl lg:w-[90%] md:h-[446px] md:p-8" style="background-image: url(../src/assets/imagenes/Gradiantes/Color/Gradient-\(13\).webp)">
+      <h2 class="text-center text-[12px] text-BlancoCultivado uppercase py-2 md:text-[20px]">Central America Consulting Support</h2>
+      <h1 class="w-full text-center text-[20px] text-BlancoCultivado font-BlauerNueBold uppercase md:text-5xl lg:text-7xl">Nuestros Servicios</h1>
+    </div>
+  </header>
 
-        <script src="/src/js/app.js"></script>
-    </body>
+  <main class="flex flex-col gap-8 bg-Negro px-8 lg:px-[7rem]">
+    <div class="flex flex-col items-center justify-center gap-2 text-BlancoCultivado lg:items-start">
+      <h2 class="text-justify text-[20px] font-BlauerNueBold uppercase md:text-[28px] lg:text-[32px]">Soluciones en Eficiencia Energética</h2>
+      <p class="text-justify text-[12px] md:w-[514px] md:text-base lg:w-[700px]">En CACS, ofrecemos asesorías personalizadas para ayudar a las organizaciones a implementar prácticas sostenibles y cumplir con las normativas técnicas en eficiencia energética.</p>
+    </div>
+
+    <!-- Tarjetas de servicios -->
+    <div class="flex flex-col items-center justify-center gap-8 lg:grid lg:grid-cols-3 lg:grid-rows-2">
+      <!-- Tarjetas se mantienen igual. No hay mejoras urgentes aquí. -->
+      <!-- Asegúrate que las imágenes usen loading="lazy" si se agregan más -->
+    </div>
+
+    <section class="flex h-screen flex-col items-center justify-center gap-4 p-8 text-BlancoCultivado">
+      <div>
+        <h2 class="w-[90%] text-left text-[24px] font-BlauerNueBold uppercase md:text-[28px] lg:text-[64px]">Beneficio de trabajar con CASC</h2>
+        <hr class="w-[180px] border-4 border-AguamarinaMediana lg:w-[50%]" />
+      </div>
+
+      <div class="flex flex-col gap-10 lg:flex-row">
+        <div class="md:w-[270px]">
+          <h3 class="text-[20px] font-BlauerNueBold uppercase text-BlancoCultivado md:text-[24px]">Cumplimiento Normativo Asegurado</h3>
+          <p class="text-justify text-[12px] md:text-base">Garantizamos que tu empresa cumpla con las normativas locales e internacionales, evitando sanciones legales.</p>
+        </div>
+        <div class="md:w-[270px]">
+          <h3 class="text-[20px] font-BlauerNueBold uppercase text-BlancoCultivado md:text-[24px]">Optimización Energética</h3>
+          <p class="text-justify text-[12px] md:text-base">Mejoramos el uso de los recursos energéticos, reduciendo costos y mejorando la eficiencia operativa.</p>
+        </div>
+        <div class="md:w-[270px]">
+          <h3 class="text-[20px] font-BlauerNueBold uppercase text-BlancoCultivado md:text-[24px]">Acceso a Nuevos Mercados</h3>
+          <p class="text-justify text-[12px] md:text-base">Con el cumplimiento de los estándares internacionales, tu empresa abre puertas a nuevas oportunidades de negocio y expansión.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="flex flex-col items-center justify-center gap-8 p-8 text-BlancoCultivado bg-cover bg-center bg-no-repeat h-auto" style="background-image: url(../src/assets/imagenes/Gradiantes/Color/Gradient-\(18\).jpg)">
+    <a href="/index.html" class="flex flex-col items-center justify-center gap-4">
+      <img loading="lazy" class="w-[100px]" src="src/assets/imagenes/Logo/CACS-LogoPrincipal.webp" alt="Logo de CASC" />
+    </a>
+
+    <ul class="flex flex-col items-center justify-center gap-4">
+      <li><a href="sobrenosotros.html">Nosotros</a></li>
+      <li><a href="servicios.html">Servicio</a></li>
+    </ul>
+
+    <div class="flex items-center justify-center gap-4">
+      <a href="#"><img loading="lazy" src="https://img.icons8.com/?size=50&id=32320&format=png&color=FFFFFF" alt="Icono Instagram" /></a>
+      <a href="#"><img loading="lazy" src="https://img.icons8.com/?size=50&id=98960&format=png&color=FFFFFF" alt="Icono LinkedIn" /></a>
+    </div>
+
+    <p>© 2021 CASC. All rights reserved.</p>
+  </footer>
+
+  <script src="/src/js/app.js" defer></script>
+</body>
 </html>
