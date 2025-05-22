@@ -9,6 +9,7 @@
         url('../assets/fonts/BlauerNueDownloads/TrueType/BlauerNue-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
   }
 
 @font-face {
@@ -18,6 +19,7 @@
         url('../assets/fonts/BlauerNueDownloads/TrueType/BlauerNue-Bold.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
   }
 @font-face {
     font-family:'Blauer-Nue-Thin';
@@ -26,5 +28,6 @@
         url('../assets/fonts/BlauerNueDownloads/TrueType/BlauerNue-Thin.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
   }
   

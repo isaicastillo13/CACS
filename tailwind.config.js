@@ -23,5 +23,10 @@ module.exports = {
       }
     },             
   },
+  safelist: [
+    'text-AguamarinaMediana',
+    'bg-AzulCielo',
+    'border-AzulCielo'
+  ],
   plugins: []               
 }
